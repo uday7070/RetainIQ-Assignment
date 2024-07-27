@@ -13,9 +13,9 @@ This project implements a dynamic table in React.js with features to add and rem
 ## Installation
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/dynamic-table-interactjs.git
-   cd dynamic-table-interactjs
+   
+   git clone https://github.com/uday7070/RetainIQ-Assignment.git
+   
 
 2. **Install Dependencies**
    npm install
