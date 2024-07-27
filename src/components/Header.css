@@ -1,0 +1,30 @@
+.header_container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  display: flex;
+}
+.header_rule {
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  margin-left: 15px;
+}
+.header_icon {
+  position: relative;
+  top: 10px;
+  left: 0;
+}
+
+.header_btn {
+  background-color: green;
+  color: white;
+  border: none;
+  margin-right: 20px;
+  padding: 12px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}

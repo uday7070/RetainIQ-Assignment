@@ -1,0 +1,127 @@
+  .content_container {
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+    width: calc(100vw - 30px);
+  }
+  .deleteIcon {
+    color: palevioletred;
+    cursor: pointer;
+    border: none;
+    display: none;
+  }
+  .numbering {
+    border-right: 1px solid rgb(218, 218, 218);
+    margin-right: auto;
+    padding: 2rem 1rem 2rem 3rem;
+    float: right;
+  }
+  .rows_numbering {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  table {
+    margin-top: 2rem;
+    table-layout: fixed;
+    max-width: 100%;
+  }
+
+  tr {
+    padding: 2px;
+  }
+  .content_heading {
+    border-right: 1px solid rgb(197, 197, 197);
+  }
+
+  th {
+    padding: 2rem 1rem;
+
+    color: gray;
+    line-height: 15px;
+  }
+  .fixed-column2 {
+    position: absolute;
+    left: 115px;
+    width: 340px;
+  }
+  .product_heading {
+    margin-top: 10px;
+  }
+  .product_detail {
+    height: 180px;
+  }
+
+  .Add_btn {
+    padding: 2rem 1rem 2rem 3rem;
+  }
+  .image_td {
+    width: 200px;
+    height: 180px;
+  }
+  .image_td_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 180px;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 6px;
+  }
+
+  .move_icon {
+    position: relative;
+    top: 5px;
+
+    cursor: pointer;
+
+    left: 20px;
+  }
+  .deleteVariantIcon {
+    color: palevioletred;
+    cursor: pointer;
+
+    border: none;
+  }
+  .variantBtn {
+    display: flex;
+    flex-direction: column;
+  }
+  .outer {
+    position: relative;
+  }
+  .inner {
+    overflow-x: scroll;
+    overflow-y: visible;
+    margin-left: 500px;
+  }
+  .fixed-column {
+    position: absolute;
+    left: 0;
+    width: 115px;
+  }
+
+  th,
+  td {
+    box-sizing: border-box;
+  }
+  table {
+    max-width: 100%;
+  }
+  .addState_container {
+    width: 100%;
+  }
+  .addState_btn {
+    border: none;
+    margin: 0 1rem 1rem 2rem;
+    cursor: pointer;
+  }
+  .deleteState_btn {
+    border: none;
+    visibility: hidden;
+  }
+  .rows_tr:hover {
+    .deleteState_btn {
+      visibility: inherit;
+    }
+  }
