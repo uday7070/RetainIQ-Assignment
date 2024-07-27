@@ -18,8 +18,10 @@ This project implements a dynamic table in React.js with features to add and rem
    
 
 2. **Install Dependencies**
+
    npm install
 
 
 3.**Start the Server**
+   
    npm start
