@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Content />
-      {/* <Table /> */}
+
       <ToastContainer position="top-center" autoClose={1000} />
     </div>
   );
